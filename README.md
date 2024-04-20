@@ -54,18 +54,22 @@ Download the scripts directly from our [releases page](https://github.com/anonfa
 ### Linux and Mac (GUI)
 
 - **pdf-merger_GUI.py**: This Python script with a graphical user interface is compatible with Linux and Mac. Follow these instructions to run it:
+1. Open terminal and install required module:
+   ```bash
+   pip install pypdf2
+   ```
 
-1. Clone the repository:
+2. Clone the repository:
    ```bash
    git clone https://github.com/anonfaded/pdf-merger.git
    ```
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
    ```bash
    cd pdf-merger
    ```
 
-3. Run the script:
+4. Run the script:
    ```bash
    python3 pdf-merger_GUI.py
    ```
